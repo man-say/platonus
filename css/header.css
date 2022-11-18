@@ -1,0 +1,81 @@
+.header{
+    padding: 10px;
+    background-color: #40E272;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 40px;
+    height: 35px;
+}
+
+.nav__section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav__name{
+    font-size: 10px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.nav__ava{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-image: url("/images/ava.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav__down{
+    background: none;
+    outline: none;
+    border: none;
+    width: 5px;
+    height: 5px;
+    background-image: url("/images/caret-down.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 8px 8px;
+    cursor: pointer;
+}
+
+.nav__menu{
+    margin-left: 15px;
+    background: none;
+    outline: none;
+    border: none;
+    width: 15px;
+    height: 15px;
+    background-image: url("/images/menu.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.nav__off{
+    margin-left: 5px;
+    background: none;
+    outline: none;
+    border: none;
+    width: 10px;
+    height: 10px;
+    background-image: url("/images/on-off-button.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
