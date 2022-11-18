@@ -33,7 +33,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    background-image: url("./images/ava.jpg");
+    background-image: url("../images/ava.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@
     border: none;
     width: 5px;
     height: 5px;
-    background-image: url("./images/caret-down.svg");
+    background-image: url("../images/caret-down.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 8px 8px;
@@ -59,7 +59,7 @@
     border: none;
     width: 15px;
     height: 15px;
-    background-image: url("./images/menu.svg");
+    background-image: url("../images/menu.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +73,7 @@
     border: none;
     width: 10px;
     height: 10px;
-    background-image: url("./images/on-off-button.svg");
+    background-image: url("../images/on-off-button.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
