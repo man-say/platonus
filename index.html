@@ -17,12 +17,42 @@
             <img src="./images/platonus_logo.png" alt="" class="logo">
             <div class="nav__section">
                 <h1 class="nav__name">Русский</h1>
-                <button class="nav__down"></button>
+                <button data-modal-target="#modal" class="nav__down"></button>
                 <div class="nav__ava"></div>
-                <button class="nav__off"></button>
+                <a href="./main.html" class="nav__link"><button class="nav__off"></button></a>
                 <button class="nav__menu"></button>
             </div>
         </nav>
+        <div class="menu">
+            <div class="menu__section">
+                <img src="./images/blocks.png" alt="" class="menu__logo">
+                <h1 class="menu__title">Учебная лаборатория</h1>
+            </div>
+            <div class="menu__section">
+                <img src="./images/book.png" alt="" class="menu__logo">
+                <h1 class="menu__title">Журнал</h1>
+            </div>
+            <div class="menu__section">
+                <img src="./images/clock.png" alt="" class="menu__logo">
+                <h1 class="menu__title">Расписание</h1>
+            </div>
+            <div class="menu__section">
+                <img src="./images/clock_app.png" alt="" class="menu__logo">
+                <h1 class="menu__title">Генератор расписания</h1>
+            </div>
+            <div class="menu__section">
+                <img src="./images/calendar.png" alt="" class="menu__logo">
+                <h1 class="menu__title">Транскрипт</h1>
+            </div>
+            <div class="menu__section">
+                <img src="./images/calendar.png" alt="" class="menu__logo">
+                <h1 class="menu__title">Календарь</h1>
+            </div>
+            <div class="menu__section">
+                <img src="./images/law.png" alt="" class="menu__logo">
+                <h1 class="menu__title">Аппеляция</h1>
+            </div>
+        </div>
     </header>
     <main class="main">
         <button class="settings"></button>
@@ -41,23 +71,32 @@
                     <h1 class="content__subtitle">Тема</h1>
                 </div>
                 <div class="content__body">
-                    <div class="content__inner-date">
+                    <div class="content__inner">
                         <h1 class="content__date">10.11.22</h1>
-                        <h1 class="content__date">19.10.22</h1>
-                        <h1 class="content__date">18.10.22</h1>
-                        <h1 class="content__date">04.10.22</h1>
+                        <h1 class="content__text">список прошедшие по конкурсу на вакансии</h1>
                     </div>
-                    <div class="content__inner-text">
-                        <p class="content__text">список прошедшие по конкурсу на вак..</p>
-                        <p class="content__text">Конкурс &34 ; Қазақстан хақлқына &34 ; </p>
-                        <p class="content__text">Объявление по льготному проезду</p>
-                        <p class="content__text">Дорожная компенсация!!!!!!</p>
+                    <div class="content__inner">
+                        <h1 class="content__date">19.10.22</h1>
+                        <h1 class="content__text">Конкурс &34 ; Қазақстан хақлқына &34 ;</h1>
+                    </div>
+                    <div class="content__inner">
+                        <h1 class="content__date">18.10.22</h1>
+                        <h1 class="content__text">Объявление по льготному проезду</h1>
+                    </div>
+                    <div class="content__inner">
+                        <h1 class="content__date">04.10.22</h1>
+                        <h1 class="content__text">Дорожная компенсация!!!!!!</h1>
                     </div>
                 </div>
             </div>
             <button class="btn__details">Подробнее...</button>
         </section>
     </main>
-
+    <section id = "modal" class = "language__menu" >
+        <h1 class="nav__name">Казакша</h1>
+        <h1 class="nav__name">English</h1>
+    </section>
+    <div id="overlay"></div>   
+    <script src="./js/script.js"></script>
 </body>
 </html>

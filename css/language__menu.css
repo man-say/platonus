@@ -1,0 +1,36 @@
+.language__menu{
+    padding: 10px;
+    position: absolute;
+    top: 45px;
+    left: 150px;
+    transform: translate(50%, 10%) scale(0);
+    background: #FFFFFF;
+    z-index: 10;
+    gap: 5px;
+}
+
+.language__menu.active{
+    transform: translate(50%, 10%) scale(1);
+}
+
+.language__menu .nav__name{
+    margin-top: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+  }
+  
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+} 
