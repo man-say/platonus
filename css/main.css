@@ -21,6 +21,8 @@
     background-size: 20px 20px;
     cursor: pointer;
     box-shadow: 4px 4px 19px 0px rgba(0, 0, 0, 0.32);
+    z-index: 10;
+    transition: 2ms ease-in-out;
 }
 
 .page{

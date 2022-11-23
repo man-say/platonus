@@ -1,5 +1,6 @@
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const popUpMenu = document.getElementById('language__menu');
+const burgerMenu = document.getElementById('menu')
 const overlay = document.getElementById('overlay')
 
 openModalButtons.forEach(button => {
@@ -16,6 +17,12 @@ overlay.addEventListener('click', () => {
     })
   })
 
+  overlay.addEventListener('click', () => {
+    const modals = document.querySelectorAll('.menu.active')
+    modals.forEach(modal => {
+      closeModal(modal)
+    })
+  })
 
   function openModal(modal) {
     if (modal == null) return
